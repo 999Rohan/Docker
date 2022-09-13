@@ -20,7 +20,7 @@ pipeline {
         }
         stage('create container') {
         steps {
-            sh'docker run -it -d --rm -p 8095:8080 --name calc6 maven-app:1.0.3'
+            sh'docker run -it -d --rm -p 8096:8080 --name calc7 maven-app:1.0.3'
         }
     }
         
